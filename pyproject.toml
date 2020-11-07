@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kd-flask-api"
+version = "0.1.0"
+description = ""
+authors = ["Jeovani Marcos Morales Nieto <escribeleaqui@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+gunicorn = "^20.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
