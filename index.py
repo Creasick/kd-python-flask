@@ -1,5 +1,6 @@
 from flask import Flask, request, make_response
-from waitress import serve
+
+# from waitress import serve
 
 app = Flask(__name__)
 koders = [{"name": "mike"}, {"name": "charles"}, {"name": "Pedro"}, {"name": "Luis"}]
@@ -31,6 +32,6 @@ def delete_koder(name):
     return make_response({"message": f"Koder {name} don't exists"}, 404)
 
 
-if __name__ == "__main__":
+""" if __name__ == "__main__":
   # app.run()
-  serve(app, host="127.0.0.1", port=8000)
+  serve(app, host="127.0.0.1", port=8000) """
