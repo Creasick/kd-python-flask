@@ -5,11 +5,11 @@
       "use":"@vercel/python",
       "src":"./index.py"
     }
-  ]
-},
+  ],
 "routes":[
   {
     "src": "/[.*]",
     "dest": "/"
   }
 ]
+}
